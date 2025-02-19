@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "jennie",
+    "slug": "jennie",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,13 +9,15 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.lanky.jennie"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.lanky.jennie"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +38,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "eebab904-4037-47cd-8cc1-e14ac95277bb"
+      }
+    },
+    "owner": "lanky",
+    "updates": {
+      "url": "https://u.expo.dev/eebab904-4037-47cd-8cc1-e14ac95277bb"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
